@@ -84,11 +84,10 @@ export const Hero: React.FC = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
         
-        {/* Static Badge - Crimson "Malwa" & display font */}
-        <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs bg-white/5 border border-white/10 mb-6 backdrop-blur-md font-display tracking-wide select-none">
+        {/* Static Badge - Crimson & display font */}
+        <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs bg-white/5 border border-white/10 mb-6 backdrop-blur-md font-display tracking-wide select-none text-[#EF4444]">
           <span className="w-2 h-2 rounded-full bg-emerald-500 animate-ping shrink-0" />
-          <span className="text-[#EF4444] font-extrabold">Malwa</span>
-          <span className="text-slate-200 font-semibold">Institute of Technology, Indore</span>
+          <span className="font-extrabold">Malwa Institute of Technology, Indore</span>
         </span>
 
         {/* Headline */}
@@ -103,8 +102,7 @@ export const Hero: React.FC = () => {
         <p className="mt-6 text-sm sm:text-base md:text-lg text-slate-300 max-w-3xl mx-auto leading-relaxed">
           Empowering student innovators for{" "}
           <strong className="text-white font-extrabold">#InnovationseAtmaNirbharBharat</strong>.
-          We are shortlisting the top 50 teams (45 main entry + 5 waitlisted) to be officially nominated
-          to the national AICTE portal.
+          Selected teams will be officially nominated to the national AICTE portal.
         </p>
 
         {/* Action Button */}
