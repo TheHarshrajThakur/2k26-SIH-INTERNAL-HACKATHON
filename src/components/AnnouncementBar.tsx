@@ -15,11 +15,13 @@ export const AnnouncementBar: React.FC = () => {
           </span>
         </span>
         <a
-          href="#registration"
-          className="inline-flex items-center gap-0.5 text-blue-700 hover:text-blue-900 underline font-extrabold ml-1.5 transition-colors duration-150 group"
+          href="https://forms.gle/vXuGFZbKiDAd9iQc9"
+          target="_blank"
+          rel="noreferrer"
+          className="inline-flex items-center gap-1 px-3 py-1 bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600 text-white text-[11px] font-extrabold rounded shadow transition-all duration-300 transform hover:-translate-y-0.5 ml-2 group"
         >
-          Nominate Team
-          <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
+          Register Now
+          <ArrowRight className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" />
         </a>
       </div>
     </div>
