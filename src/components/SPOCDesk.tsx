@@ -114,7 +114,7 @@ export const SPOCDesk: React.FC = () => {
                     </span>
                   </div>
                   <p className="leading-relaxed pt-1 flex-grow">
-                    <strong>Annexure A Verification:</strong> The shortlisted top 50 teams must download the Annexure A template, fill in their respective member details, and verify signatures with the department heads.
+                    <strong>Annexure A Verification:</strong> The shortlisted teams must download the Annexure A template, fill in their respective member details, and verify signatures with the department heads.
                   </p>
                 </div>
 

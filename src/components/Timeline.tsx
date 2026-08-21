@@ -27,7 +27,7 @@ export const Timeline: React.FC = () => {
       title: "Jury Shortlisting",
       date: "Late August 2026",
       icon: <FileCheck className="w-5 h-5" />,
-      desc: "Jury aggregates criteria scores and nominates the top 50 teams (45 main + 5 waitlist).",
+      desc: "Jury aggregates criteria scores and nominates the top selected teams.",
       color: "bg-indigo-600 border-indigo-200 shadow-indigo-500/35",
       badgeColor: "bg-indigo-50 text-indigo-800 border-indigo-100",
     },
