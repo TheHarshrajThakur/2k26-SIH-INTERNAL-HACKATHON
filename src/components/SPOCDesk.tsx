@@ -1,5 +1,5 @@
 import React from "react";
-import { Scale, CheckSquare, Download, ShieldAlert, FileText } from "lucide-react";
+import { Scale, CheckSquare, ShieldAlert, FileText, ArrowUpRight } from "lucide-react";
 
 export const SPOCDesk: React.FC = () => {
   const criteria = [
@@ -34,13 +34,6 @@ export const SPOCDesk: React.FC = () => {
       bandClass: "border-l-rose-500 bg-rose-50/20",
     },
   ];
-
-  const handleDownload = () => {
-    // Simulated template download alert
-    alert(
-      "⬇️ Simulating Download of 'Annexure_A_MIT_Nomination_Letter.docx'...\nIn a production environment, this triggers a direct download of the AICTE authorized format containing the college letterhead and seal fields."
-    );
-  };
 
   return (
     <section id="spoc" className="py-16 bg-slate-50 border-b border-slate-200 relative overflow-hidden">
@@ -156,13 +149,15 @@ export const SPOCDesk: React.FC = () => {
                   Download templates required for final selection and verification by the institution's primary SPOC.
                 </p>
                 <div className="flex gap-2">
-                  <button
-                    onClick={handleDownload}
-                    className="flex-1 inline-flex items-center justify-center gap-1.5 px-4 py-2.5 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-bold text-xs rounded-lg shadow transition-colors cursor-pointer"
+                  <a
+                    href="https://docs.google.com/presentation/d/18FsAXlzOoJjwPFd2jJHRkdGmOLX8_1v3/edit"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="flex-1 inline-flex items-center justify-center gap-1.5 px-4 py-2.5 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-bold text-xs rounded-lg shadow transition-colors text-center"
                   >
-                    <Download className="w-3.5 h-3.5" />
-                    Annexure A Template
-                  </button>
+                    <ArrowUpRight className="w-3.5 h-3.5" />
+                    SIH PPT Format
+                  </a>
                   <a
                     href="https://sih.gov.in"
                     target="_blank"
