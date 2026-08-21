@@ -1,7 +1,6 @@
 import { AnnouncementBar } from "./components/AnnouncementBar";
 import { Navbar } from "./components/Navbar";
 import { Hero } from "./components/Hero";
-import { Guidelines } from "./components/Guidelines";
 import { RegistrationForm } from "./components/RegistrationForm";
 import { Timeline } from "./components/Timeline";
 import { SPOCDesk } from "./components/SPOCDesk";
@@ -14,7 +13,6 @@ function App() {
       <Navbar />
       <main className="flex-grow">
         <Hero />
-        <Guidelines />
         <Timeline />
         <RegistrationForm />
         <SPOCDesk />

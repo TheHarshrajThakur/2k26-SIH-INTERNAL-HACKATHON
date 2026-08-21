@@ -16,7 +16,6 @@ export const Navbar: React.FC = () => {
 
   const navItems = [
     { label: "Overview", href: "#overview" },
-    { label: "Eligibility", href: "#eligibility" },
     { label: "Timeline", href: "#timeline" },
     { label: "Registration", href: "#registration" },
     { label: "SPOC Desk", href: "#spoc" },
