@@ -1,5 +1,5 @@
 import React from "react";
-import { MapPin, Phone, Mail, Globe, Landmark, ShieldCheck } from "lucide-react";
+import { MapPin, Phone, Mail, Globe, ShieldCheck } from "lucide-react";
 import { MITLogo } from "./Logos";
 
 export const Footer: React.FC = () => {
