@@ -1,5 +1,5 @@
 import React from "react";
-import { AlertCircle, Calendar, ArrowRight } from "lucide-react";
+import { AlertCircle, ArrowRight } from "lucide-react";
 
 export const AnnouncementBar: React.FC = () => {
   return (
