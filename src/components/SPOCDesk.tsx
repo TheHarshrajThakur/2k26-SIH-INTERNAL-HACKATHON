@@ -120,9 +120,8 @@ export const SPOCDesk: React.FC = () => {
                     <span className="w-8 h-8 rounded-full bg-orange-600 text-white font-extrabold flex items-center justify-center shadow-md text-xs z-10 transition-transform duration-200 group-hover:scale-105">
                       2
                     </span>
-                  </div>
                   <p className="leading-relaxed pt-1 flex-grow">
-                    <strong>HoD Verification:</strong> Completed PPT presentation files must be reviewed and verified by their respective Department Heads (HoD) to confirm feasibility and project scope.
+                    <strong>Format Verification:</strong> Completed PPT presentation files must be reviewed and verified to confirm formatting compliance and project details.
                   </p>
                 </div>
 
@@ -134,7 +133,7 @@ export const SPOCDesk: React.FC = () => {
                     </span>
                   </div>
                   <p className="leading-relaxed pt-1 flex-grow">
-                    <strong>Portal Lock:</strong> Once approved by the department, the team leader must upload the PPT presentation and lock their final submission on the National SIH Portal.
+                    <strong>Portal Lock:</strong> Once approved, the team leader must upload the PPT presentation and lock their final submission on the National SIH Portal.
                   </p>
                 </div>
               </div>
