@@ -120,6 +120,7 @@ export const SPOCDesk: React.FC = () => {
                     <span className="w-8 h-8 rounded-full bg-orange-600 text-white font-extrabold flex items-center justify-center shadow-md text-xs z-10 transition-transform duration-200 group-hover:scale-105">
                       2
                     </span>
+                  </div>
                   <p className="leading-relaxed pt-1 flex-grow">
                     <strong>Format Verification:</strong> Completed PPT presentation files must be reviewed and verified to confirm formatting compliance and project details.
                   </p>
