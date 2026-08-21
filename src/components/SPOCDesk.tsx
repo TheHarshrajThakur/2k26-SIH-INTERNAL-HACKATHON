@@ -107,7 +107,7 @@ export const SPOCDesk: React.FC = () => {
                     </span>
                   </div>
                   <p className="leading-relaxed pt-1 flex-grow">
-                    <strong>Annexure A Verification:</strong> The shortlisted teams must download the Annexure A template, fill in their respective member details, and verify signatures with the department heads.
+                    <strong>PPT Preparation:</strong> Shortlisted teams must download the official SIH PPT template, fill in all member and project proposal details, and prepare their slide deck.
                   </p>
                 </div>
 
@@ -122,7 +122,7 @@ export const SPOCDesk: React.FC = () => {
                     </span>
                   </div>
                   <p className="leading-relaxed pt-1 flex-grow">
-                    <strong>College Seal:</strong> Completed Annexure A documents must be brought to the SPOC Desk in the Administrative block for official stamp authorization and Principal signature.
+                    <strong>HoD Verification:</strong> Completed PPT presentation files must be reviewed and verified by their respective Department Heads (HoD) to confirm feasibility and project scope.
                   </p>
                 </div>
 
@@ -134,7 +134,7 @@ export const SPOCDesk: React.FC = () => {
                     </span>
                   </div>
                   <p className="leading-relaxed pt-1 flex-grow">
-                    <strong>Portal Lock:</strong> Once approved, the SPOC will issue a custom authorization credential allowing the Team Leader to lock their submission on the National SIH Portal.
+                    <strong>Portal Lock:</strong> Once approved by the department, the team leader must upload the PPT presentation and lock their final submission on the National SIH Portal.
                   </p>
                 </div>
               </div>
