@@ -17,7 +17,7 @@ export const Timeline: React.FC = () => {
       title: "MIT Internal Screening",
       date: "August 27, 2026",
       icon: <Play className="w-5 h-5" />,
-      desc: "Live internal screening review and prototype jury presentation starting 09:00 AM at the main Auditorium.",
+      desc: "Internal screening review and prototype jury presentation starting 09:00 AM at respective labs.",
       color: "bg-orange-600 border-orange-200 shadow-orange-500/35",
       badgeColor: "bg-orange-50 text-orange-800 border-orange-100",
       active: true,

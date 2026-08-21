@@ -134,7 +134,7 @@ export const SPOCDesk: React.FC = () => {
                     </span>
                   </div>
                   <p className="leading-relaxed pt-1 flex-grow">
-                    <strong>Portal Lock:</strong> Once approved, the team leader must upload the PPT presentation and lock their final submission on the National SIH Portal.
+                    <strong>Portal Lock:</strong> Once approved as a selected team for SIH, the team leader must upload the PPT presentation and lock their final submission on the National SIH Portal.
                   </p>
                 </div>
               </div>
@@ -146,7 +146,7 @@ export const SPOCDesk: React.FC = () => {
                   <span>Shortlisting Documentation</span>
                 </div>
                 <p className="text-[11px] text-slate-500">
-                  Download templates required for final selection and verification by the institution's primary SPOC.
+                  Download templates required for final selection and verification by the institution's primary SPOC at the time of Internal Hackathon.
                 </p>
                 <div className="flex gap-2">
                   <a
