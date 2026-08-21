@@ -5,10 +5,10 @@ export const Timeline: React.FC = () => {
   const steps = [
     {
       phase: "Phase 1",
-      title: "Roster Registration",
+      title: "Team Registration",
       date: "August 2026",
       icon: <DoorOpen className="w-5 h-5" />,
-      desc: "Teams register on the campus portal and lock in their 6-member student roster.",
+      desc: "Teams register on the campus portal and lock in their 6-member student team.",
       color: "bg-blue-600 border-blue-200 shadow-blue-500/35",
       badgeColor: "bg-blue-50 text-blue-800 border-blue-100",
     },

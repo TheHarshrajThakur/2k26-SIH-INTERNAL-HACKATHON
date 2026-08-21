@@ -57,7 +57,7 @@ export const Hero: React.FC = () => {
       icon: <UserPlus className="w-6 h-6 text-emerald-500" />,
       title: "Gender Diversity",
       value: "1 Female Member Min",
-      desc: "Mandatory per team roster validation",
+      desc: "Mandatory per team validation",
       borderClass: "border-t-emerald-500",
     },
     {

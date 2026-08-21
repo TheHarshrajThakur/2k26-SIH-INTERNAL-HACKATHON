@@ -27,10 +27,10 @@ export const RegistrationForm: React.FC = () => {
               Nomination Registrations
             </span>
             <h2 className="font-display font-extrabold text-2xl sm:text-3xl text-slate-900 tracking-tight mt-2">
-              Team Roster Nomination
+              Team Nomination
             </h2>
             <p className="text-slate-600 text-xs sm:text-sm max-w-md mx-auto leading-relaxed">
-              Submit your team roster and project details on our campus internal selection portal. Verify eligibility rules beforehand.
+              Submit your team details and project details on our campus internal selection portal. Verify eligibility rules beforehand.
             </p>
           </div>
 

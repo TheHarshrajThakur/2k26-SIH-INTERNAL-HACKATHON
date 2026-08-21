@@ -14,11 +14,6 @@ export const AnnouncementBar: React.FC = () => {
             <strong>SIH 2026 Internal Hackathon</strong> on <strong>August 27, 2026</strong> at MIT Indore!
           </span>
         </span>
-        <span className="hidden md:inline text-slate-300">|</span>
-        <span className="flex items-center gap-1.5 text-emerald-800 text-xs">
-          <Calendar className="w-4 h-4 text-emerald-600 shrink-0" />
-          <span>Nominations lock ahead of the Sept 15 national portal deadline.</span>
-        </span>
         <a
           href="#registration"
           className="inline-flex items-center gap-0.5 text-blue-700 hover:text-blue-900 underline font-extrabold ml-1.5 transition-colors duration-150 group"

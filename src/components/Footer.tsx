@@ -57,7 +57,7 @@ export const Footer: React.FC = () => {
         <div className="space-y-4">
           <h3 className="text-white font-bold text-xs uppercase tracking-wider">College Organizing Team</h3>
           <p className="text-xs text-slate-400 leading-relaxed">
-            Reach out to our campus internal screening helpdesk for site check-in or roster edits:
+            Reach out to our campus internal screening helpdesk for site check-in or team edits:
           </p>
           <div className="space-y-4 text-xs mt-3">
             {/* SPOC Contact */}
